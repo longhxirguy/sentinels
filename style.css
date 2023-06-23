@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family : 'Poppins' ,sans-serif;
+}
+
+
+
+body {
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+.nav-bar {
+    height : 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #4c4b4b;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #c30037;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: #ffffff;
+}
+a:hover:after{
+    width: 100%;
+}
+.nav-links ul li{
+    list-style-type: none;
+    margin : auto 30px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    transition : 0.8s;
+    color: white;
+}
+
+.nav-bar .logo{
+  margin-left : 100px;
+
+}
+
+.nav-links ul {
+    display: flex;
+    
+}
+
+.shop {
+    border : 1px solid black;
+    padding : 10px 25px;
+    background-color: #ce0037;
+    border-radius : 5px;
+    color: white;
+    transition : 0.6s;
+}
+
+.shop:hover {
+    border :  1px solid red;
+    background-color: transparent;
+    color : white ;  
+
+}
+
+.nav-links ul li a:hover{
+    color : #ce0037;
+    transition : 0.4s;
+}
+
+.hero{
+
+    display: flex;
+}
+
+.hero-text {
+    position:absolute;
+    top : 50%;
+    text-align: center;
+    left : 50%;
+    color: white
+    ;
+    transform : translate(-50%, -50%);
+
+}
+
+video{
+    height : 90vh;
+    width : 100%;
+    object-fit : cover;
+}
+
+@media screen and (max-width : 600px){
+    .nav-bar {
+        width : 1500px;
+        height : 08vh;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-links ul li{
+        list-style-type: none;
+        margin : auto 30px;
+    }
+    
+    .nav-links ul li a{
+        text-decoration: none;
+        transition : 0.8s;
+        color: white;
+    }
+    
+    .nav-bar .logo{
+      margin-left : 100px;
+    
+    }
+    
+    .nav-links ul {
+        display: flex;
+        
+    }
+}
+
+section {
+    height : 100vh;
+}
+
+.first {
+    
+
+}
+
+.second {
+    background-color : black;
+}
+
+
+.third {
+    background-color: black;
+    color: rgb(180, 177, 177);
+    text-align: center;
+}
+
+
+
+.footer {
+    display: block;
+    width: 100%;
+    background-color: black;
+    height: auto;
+}
+.container{
+    background-color: black;
+    margin : auto;
+    width : 100%;
+    text-align: center;
+}
+
+.copyright{
+    color: white;
+    opacity: 45%;
+}
+    
+    .singleCol {
+max-width: 750px;
+margin : 0 auto;
+text-align : center;
+
+}
+
+
+.SEN-SOCIALS {
+ color : black;
+ font-size: 2rem;
+ text-align: center;
+}
+
+.SEN-SOCIALS a {
+    color : #b1b1b1;
+    font-size : 28px;
+}
+
+
